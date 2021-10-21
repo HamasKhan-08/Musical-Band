@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+string musicalfriend = "yes";  "Yes";
+    string friendplays = "guitar"; "Guitar";
+    cout << " do you have a musical friend? " << endl;
+    cin >> musicalfriend;
+    if (musicalfriend == "no") {
+        cout << " sorry no friends " << endl; return false;
+        
+
+    } 
+    else {
+        cout << " what does your friend play " << endl;
+    }
+    cin >> friendplays;
+
+     if ((musicalfriend == "yes") || musicalfriend == "Yes") {
+        if ((friendplays == "guitar") || friendplays == "Guitar") {
+            cout << " You can start the band " << endl;
+	}
+	else {
+		cout << " Sorry You Cannot Create a Band " << endl;
+	}
